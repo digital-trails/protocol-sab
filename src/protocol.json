@@ -18,5 +18,5 @@
       "action": "flow://flows/weekly"
     }
   ],
-  "triggers": {"type": "ref", "path": "protocols/triggers.json"}
+  "triggers": {"type": "ref", "path": "triggers.json"}
 }
