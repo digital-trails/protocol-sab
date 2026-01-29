@@ -1,0 +1,23 @@
+{
+    "header_text": "Nightly Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "I was able to manage my emotions today."
+        },
+        {
+            "name": "nightly_manageemotions",
+            "type": "Buttons",
+            "buttons": [
+                "7::7: Very effectively",
+                "6::6",
+                "5::5",
+                "4::4: Neither effectively nor not effectively",
+                "3::3",
+                "2::2",
+                "1::1: Not at all effectively"
+            ]
+        }
+    ]
+}
