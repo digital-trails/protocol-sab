@@ -1,23 +1,10 @@
 {
-    "header_text": "Nightly Survey",
+    "header_text": "Daily Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Overall, today I felt"
-        },
-        {
-            "name": "nightly_overall",
-            "type": "Buttons",
-            "buttons": [
-                "7::7: Very good/positive",
-                "6::6",
-                "5::5",
-                "4::4: Neither good nor bad",
-                "3::3",
-                "2::2",
-                "1::1: Very bad/negative"
-            ]
+            "text": "This will be your DAILY survey where we ask participant's questions at the end of each day."
         }
     ]
 }
