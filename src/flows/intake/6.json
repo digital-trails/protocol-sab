@@ -1,5 +1,5 @@
 {
-    "header_text": "Intake!",
+    "header_text": "Intake",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -19,7 +19,7 @@
         }
     ],
     "condition": [
-        "use_nicotine_intake",
+        "global:use_nicotine_intake",
         "=",
         "0"
     ]

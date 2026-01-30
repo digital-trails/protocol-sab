@@ -1,11 +1,11 @@
 {
-    "header_text": "Intake",
+    "header_text": "Daily Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Why did you use ${global:intake_past_week_used}?"
+            "text": "Why did you use ${global:daily_past_week_used}?"
         },
         {
             "type": "Buttons",
@@ -25,7 +25,7 @@
         }
     ],
      "condition": [
-        "global:intake_past_week_used",
+        "global:daily_past_week_used",
         "!=",
         "None"
     ]

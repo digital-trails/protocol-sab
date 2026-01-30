@@ -1,5 +1,5 @@
 {
-    "header_text": "Intake!",
+    "header_text": "Intake",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -10,7 +10,8 @@
             "type": "Buttons",
             "buttons": [
                 "Prescription Opioids",
-                "Heroin | Fentanyl",
+                "Heroin",
+                "Fentanyl",
                 "Methamphetamine",
                 "Cocaine",
                 "Benzodiazepines",

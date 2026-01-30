@@ -1,5 +1,5 @@
 {
-    "header_text": "Intake!",
+    "header_text": "Intake",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -13,7 +13,7 @@
                 "1::No"
             ],
             "selectable": true,
-            "variable_name":"use_nicotine_intake"
+            "variable_name":"global:use_nicotine_intake"
         }
     ]
 }

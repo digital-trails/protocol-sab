@@ -4,7 +4,18 @@
     "elements": [
         {
             "type": "Text",
-            "text": "This will be your DAILY survey where we ask participant's questions at the end of each day."
+            "text": "Since last completing this survey, how much are you bothered by craving or urges to drink alcohol or use illicit drugs?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Not at all",
+                "Slightly",
+                "Moderately",
+                "Considerably",
+                "Extremely"
+            ],
+            "selectable": true
         }
     ]
 }

@@ -1,10 +1,10 @@
 {
-    "header_text": "Intake",
+    "header_text": "Daily Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Which drug do you crave second most?"
+            "text": "Since last completing this survey, have you used any of the following substances (not including prescribed buprenorphine)?"
         },
         {
             "type": "Buttons",
@@ -18,10 +18,11 @@
                 "Marijuana",
                 "Alcohol",
                 "“Gas-station” drugs",
-                "!Other"
+                "!Other",
+                "None"
             ],
             "selectable": true,
-            "variable_name": "global:intake_craving2",
+            "variable_name": "global:daily_past_week_used",
             "column_count": 2
         }
     ]
