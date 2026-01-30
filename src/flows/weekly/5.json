@@ -24,5 +24,10 @@
             "multiselect": true,
             "column_count": 2
         }
+    ],
+     "condition": [
+        "global:no_use_drugs_weekly",
+        "=",
+        "No"
     ]
 }
