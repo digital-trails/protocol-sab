@@ -1,0 +1,15 @@
+{
+    "header_text": "Weekly Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Congratulations!!!"
+        }
+    ],
+    "condition": [
+        "global:no_use_drugs_weekly",
+        "=",
+        "Yes"
+    ]
+}

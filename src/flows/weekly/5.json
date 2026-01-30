@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Over the past week, you reported not using any drugs, is this correct?"
+            "text": "Since last completing this survey, have you attended any peer recovery meetings (AA, NA)?"
         },
         {
             "type": "Buttons",
@@ -13,13 +13,7 @@
                 "No"
             ],
             "selectable": true,
-            "variable_name": "global:no_use_drugs_weekly"
+            "variable_name": "global:weekly_meeting"
         }
-    ],
-    "condition": [
-        "historical:daily_past_week_used",
-        "all",
-        "7",
-        "None"
     ]
 }

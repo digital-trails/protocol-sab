@@ -1,0 +1,15 @@
+{
+    "header_text": "Weekly Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Do you want a peer recovery coach?"
+        }
+    ],
+    "condition": [
+        "global:weekly_coach",
+        "=",
+        "No"
+    ]
+}

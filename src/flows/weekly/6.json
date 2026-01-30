@@ -1,0 +1,27 @@
+{
+    "header_text": "Weekly Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How many times did you attended any peer recovery meetings (AA, NA)?"
+        },
+        {
+            "type": "Picker",
+            "items": [
+				"1 times",
+                "2 times",
+                "3 times",
+                "4 times",
+                "5 times",
+                "6 times",
+                "7 or more times"
+			]
+        }
+    ],
+     "condition": [
+        "global:weekly_meeting",
+        "=",
+        "Yes"
+    ]
+}

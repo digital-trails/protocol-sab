@@ -1,0 +1,27 @@
+{
+    "header_text": "Weekly Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Since last completing this survey, how many times did you speak to your sponsor or peer recovery coach?"
+        },
+        {
+            "type": "Picker",
+            "items": [
+				"1 times",
+                "2 times",
+                "3 times",
+                "4 times",
+                "5 times",
+                "6 times",
+                "7 or more times"
+			]
+        }
+    ],
+     "condition": [
+        "global:weekly_coach",
+        "=",
+        "Yes"
+    ]
+}
