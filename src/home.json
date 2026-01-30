@@ -4,12 +4,13 @@
         {
             "type": "alert",
             "title": "Recovery",
-            "message": "Learning how we can help."
+            "message": "Learning how we can help.",
         },
         {
             "type": "button",
             "action": {
-                "text": "Surveys"
+                "text": "Surveys",
+                "action": "navmodal://Survey"
             }
         },
         {
@@ -25,7 +26,7 @@
                     "text": "What can I expect?",
                     "action": "flow://flows/instructions.json",
                     "backgroundcolor": "#1A00E05A"
-                }
+                },
             ]
         }
     ]
