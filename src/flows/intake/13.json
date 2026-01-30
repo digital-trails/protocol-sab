@@ -25,7 +25,7 @@
         }
     ],
      "condition": [
-        "intake_past_week_used",
+        "global:intake_past_week_used",
         "!=",
         "None"
     ]
