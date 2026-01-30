@@ -26,7 +26,7 @@
                     "text": "What can I expect?",
                     "action": "flow://flows/instructions.json",
                     "backgroundcolor": "#1A00E05A"
-                },
+                }
             ]
         }
     ]
