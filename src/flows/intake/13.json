@@ -10,15 +10,15 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::Craving",
-                "1::Stress",
-                "2::Anxiety",
-                "3::Depression",
-                "4::Availability",
-                "5::Boredom",
-                "6::Avoid withdrawal",
-                "7::Others were using",
-                "8::To treat pain"
+                "Craving",
+                "Stress",
+                "Anxiety",
+                "Depression",
+                "Availability",
+                "Boredom",
+                "Avoid withdrawal",
+                "Others were using",
+                "To treat pain"
             ],
             "selectable": true,
             "multiselect": true
