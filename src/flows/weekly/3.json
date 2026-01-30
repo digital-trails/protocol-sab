@@ -10,6 +10,11 @@
         {
             "type": "Text",
             "text": "Please select additional days drugs were used if necessary."
+        },
+        {
+            "type": "Scheduler",
+            "schedule_flow": false,
+            "has_time": false
         }
     ],
     "condition": [
