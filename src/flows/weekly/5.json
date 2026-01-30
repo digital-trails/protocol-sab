@@ -4,16 +4,25 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Since last completing this survey, have you attended any peer recovery meetings (AA, NA)?"
+            "text": "Over the past 7 days, have you used any of the following substances (not including prescribed buprenorphine)?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Yes",
-                "No"
+                "Prescription Opioids",
+                "Heroin",
+                "Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other"
             ],
             "selectable": true,
-            "variable_name": "global:weekly_meeting"
+            "multiselect": true,
+            "column_count": 2
         }
     ]
 }

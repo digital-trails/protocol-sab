@@ -4,7 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Let's check in on how this past week has been for you."
+            "text": "Do you want a peer recovery coach?"
         }
+    ],
+    "condition": [
+        "global:weekly_coach",
+        "=",
+        "No"
     ]
 }

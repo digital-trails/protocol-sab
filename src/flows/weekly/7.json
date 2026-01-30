@@ -4,16 +4,24 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Do you have a sponsor or peer recovery coach?"
+            "text": "How many times did you attended any peer recovery meetings (AA, NA)?"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "Yes",
-                "No"
-            ],
-            "selectable": true,
-            "variable_name": "global:weekly_coach"
+            "type": "Picker",
+            "items": [
+				"1 times",
+                "2 times",
+                "3 times",
+                "4 times",
+                "5 times",
+                "6 times",
+                "7 or more times"
+			]
         }
+    ],
+     "condition": [
+        "global:weekly_meeting",
+        "=",
+        "Yes"
     ]
 }

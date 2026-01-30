@@ -4,25 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Over the past 7 days, have you used any of the following substances (not including prescribed buprenorphine)?"
-        },
-        {
-            "type": "Buttons",
-            "buttons": [
-                "Prescription Opioids",
-                "Heroin",
-                "Fentanyl",
-                "Methamphetamine",
-                "Cocaine",
-                "Benzodiazepines",
-                "Marijuana",
-                "Alcohol",
-                "“Gas-station” drugs",
-                "!Other"
-            ],
-            "selectable": true,
-            "multiselect": true,
-            "column_count": 2
+            "text": "Congratulations!!!"
         }
+    ],
+    "condition": [
+        "global:no_use_drugs_weekly",
+        "=",
+        "Yes"
     ]
 }

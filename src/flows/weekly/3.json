@@ -4,12 +4,17 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Congratulations!!!"
+            "text": "Over the past week, you reported using ${historical:daily_past_week_used}"
+        },
+        {
+            "type": "Text",
+            "text": "Please select additional days drugs were used if necessary."
         }
     ],
     "condition": [
-        "global:no_use_drugs_weekly",
-        "=",
-        "Yes"
+        "historical:daily_past_week_used",
+        "notany",
+        "7",
+        "None"
     ]
 }
