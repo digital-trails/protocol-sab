@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How would you rate your current anxiety?\n\n0 = No anxiety\n\n10 = Max anxiety"
+            "text": "How would you rate your current sleep?\n\n0 = Worst ever\n\n10 = Best ever"
         },
         {
             "type": "Slider",

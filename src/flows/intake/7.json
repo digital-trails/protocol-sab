@@ -4,14 +4,18 @@
     "elements": [
         {
             "type": "Text",
-            "has_variable": true,
-            "text": "What is your current craving for ${global:intake_craving1}?\n\n0 = No craving\n\n10 = Max craving"
+            "text": "How much are you bothered by craving or urges to drink alcohol or use illicit drugs?"
         },
         {
-            "type": "Slider",
-            "min": "0",
-            "max": "10",
-            "display_slider_value": false
+            "type": "Buttons",
+            "buttons": [
+                "Not at all",
+                "Slightly",
+                "Moderately",
+                "Considerably",
+                "Extremely"
+            ],
+            "selectable": true
         }
     ]
 }

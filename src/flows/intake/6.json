@@ -9,10 +9,10 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::Smoke cigarettes",
-                "1::Smoke cigars",
-                "2::Use smokeless tobacco",
-                "3::Vape"
+                "Smoke cigarettes",
+                "Smoke cigars",
+                "Use smokeless tobacco",
+                "Vape"
             ],
             "selectable": true,
             "multiselect": true

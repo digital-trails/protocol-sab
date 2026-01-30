@@ -5,20 +5,20 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Why did you not use ${global:intake_past_week_used}?"
+            "text": "Why did you use ${global:intake_past_week_used}?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Reduced craving",
-                "Reduced stress",
-                "Reduced anxiety",
-                "Reduced depression",
-                "No access to drugs",
-                "No money",
-                "Less motivated to use",
-                "Drug testing",
-                "No pain"
+                "0::Craving",
+                "1::Stress",
+                "2::Anxiety",
+                "3::Depression",
+                "4::Availability",
+                "5::Boredom",
+                "6::Avoid withdrawal",
+                "7::“Others were using",
+                "8::To treat pain"
             ],
             "selectable": true,
             "multiselect": true
@@ -26,7 +26,7 @@
     ],
      "condition": [
         "intake_past_week_used",
-        "=",
+        "!=",
         "None"
     ]
 }

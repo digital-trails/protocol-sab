@@ -4,29 +4,25 @@
     "elements": [
         {
             "type": "Text",
-            "has_variable": true,
-            "text": "Why did you use ${global:intake_past_week_used}?"
+            "text": "In the past week, have you used any of the following drugs (not including prescribed buprenorphine)?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "0::Craving",
-                "1::Stress",
-                "2::Anxiety",
-                "3::Depression",
-                "4::Availability",
-                "5::Boredom",
-                "6::Avoid withdrawal",
-                "7::“Others were using",
-                "8::To treat pain"
+                "Prescription Opioids",
+                "Heroin | Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other",
+                "None"
             ],
             "selectable": true,
-            "multiselect": true
+            "variable_name": "global:intake_past_week_used",
+            "column_count": 2
         }
-    ],
-     "condition": [
-        "intake_past_week_used",
-        "!=",
-        "None"
     ]
 }
