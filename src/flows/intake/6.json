@@ -21,6 +21,6 @@
     "condition": [
         "global:use_nicotine_intake",
         "=",
-        "0"
+        "Yes"
     ]
 }

@@ -9,8 +9,8 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::Yes",
-                "1::No"
+                "Yes",
+                "No"
             ],
             "selectable": true,
             "variable_name":"global:use_nicotine_intake"

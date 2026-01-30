@@ -4,7 +4,22 @@
     "elements": [
         {
             "type": "Text",
-            "text": "This will be your WEEKLY survey where we ask participant's questions at the end of each day."
+            "text": "Over the past week, you reported not using any drugs, is this correct?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "selectable": true,
+            "variable_name": "use_nicotine_weekly"
         }
+    ],
+    "condition": [
+        "historical:daily_past_week_used",
+        "any",
+        "7",
+        "None"
     ]
 }
