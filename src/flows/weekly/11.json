@@ -5,6 +5,14 @@
         {
             "type": "Text",
             "text": "Do you want a peer recovery coach?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "selectable": true
         }
     ],
     "condition": [

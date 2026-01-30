@@ -5,7 +5,7 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Why did you not use ${global:intake_past_week_used}?"
+            "text": "Why did you not use?"
         },
         {
             "type": "Buttons",

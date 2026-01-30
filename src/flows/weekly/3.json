@@ -5,7 +5,7 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Over the past week, you reported using ${historical:daily_past_week_used}"
+            "text": "Over the past week, you reported using ${historical:daily_past_week_used|7}"
         },
         {
             "type": "Text",

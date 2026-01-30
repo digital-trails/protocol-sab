@@ -5,7 +5,7 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Why did you use ${historical:daily_past_week_used}?"
+            "text": "Why did you use ${historical:daily_past_week_used|1}?"
         },
         {
             "type": "Buttons",
