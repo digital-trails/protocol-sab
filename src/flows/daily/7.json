@@ -5,7 +5,7 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "Why did you use ${global:daily_past_week_used}?"
+            "text": "Why did you use ${historical:daily_past_week_used}?"
         },
         {
             "type": "Buttons",
@@ -25,7 +25,7 @@
         }
     ],
      "condition": [
-        "global:daily_past_week_used",
+        "historical:daily_past_week_used",
         "!=",
         "None"
     ]
