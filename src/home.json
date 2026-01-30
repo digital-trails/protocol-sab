@@ -4,7 +4,7 @@
         {
             "type": "alert",
             "title": "Recovery",
-            "message": "Learning how we can help.",
+            "message": "Learning how we can help."
         },
         {
             "type": "button",
