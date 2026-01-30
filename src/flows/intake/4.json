@@ -9,16 +9,16 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::Prescription Opioids",
-                "1::Heroin",
-                "2::Fentanyl",
-                "3::Methamphetamine",
-                "4::Cocaine",
-                "5::Benzodiazepines",
-                "6::Marijuana",
-                "7::Alcohol",
-                "8::“Gas-station” drugs",
-                "!9::Other"
+                "Prescription Opioids",
+                "Heroin",
+                "Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other"
             ],
             "selectable": true,
             "variable_name": "global:intake_craving3",

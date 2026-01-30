@@ -9,16 +9,16 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::Prescription Opioids",
-                "1::Heroin | Fentanyl",
-                "2::Methamphetamine",
-                "3::Cocaine",
-                "4::Benzodiazepines",
-                "5::Marijuana",
-                "6::Alcohol",
-                "7::“Gas-station” drugs",
-                "!8::Other",
-                "9::None"
+                "Prescription Opioids",
+                "Heroin | Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other",
+                "None"
             ],
             "selectable": true,
             "variable_name": "global:intake_past_week_used",

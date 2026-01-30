@@ -27,6 +27,6 @@
      "condition": [
         "intake_past_week_used",
         "!=",
-        "9"
+        "None"
     ]
 }
