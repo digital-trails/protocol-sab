@@ -7,7 +7,7 @@
             "message": "Learning how we can help."
         },
         {
-            "type": "survey",
+            "type": "button",
             "action": {
                 "text": "Surveys"
             }
