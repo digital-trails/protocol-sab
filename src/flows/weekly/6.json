@@ -26,9 +26,8 @@
         }
     ],
     "condition": [
-        "historical:daily_past_week_used",
+        "historical:daily_past_week_used|7",
         "all",
-        "7",
         null
     ]
 }

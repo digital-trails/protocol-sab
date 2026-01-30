@@ -13,9 +13,8 @@
         }
     ],
     "condition": [
-        "historical:daily_past_week_used",
+        "historical:daily_past_week_used|7",
         "notany",
-        "7",
         "None"
     ]
 }
