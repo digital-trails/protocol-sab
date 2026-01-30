@@ -1,0 +1,16 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you rate your current sleep?\n\n0 = Worst ever\n\n10 = Best ever"
+        },
+        {
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false
+        }
+    ]
+}

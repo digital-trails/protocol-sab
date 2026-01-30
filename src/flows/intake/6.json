@@ -1,0 +1,26 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "What kind of nicotine/tobacco do you use?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Smoke cigarettes",
+                "1::Smoke cigars",
+                "2::Use smokeless tobacco",
+                "3::Vape"
+            ],
+            "selectable": true,
+            "multiselect": true
+        }
+    ],
+    "condition": [
+        "use_nicotine_intake",
+        "=",
+        "0"
+    ]
+}

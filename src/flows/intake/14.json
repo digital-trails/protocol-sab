@@ -1,0 +1,16 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you rate your current depression?\n\n0 = No depression\n\n10 = Max depression"
+        },
+        {
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false
+        }
+    ]
+}

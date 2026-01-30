@@ -1,0 +1,16 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you rate your current anxiety?\n\n0 = No anxiety\n\n10 = Max anxiety"
+        },
+        {
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false
+        }
+    ]
+}

@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Which of these drugs have you used in the past 12 months?"
+            "text": "Which drug do you crave the most?"
         },
         {
             "type": "Buttons",
@@ -21,7 +21,7 @@
                 "!9::Other"
             ],
             "selectable": true,
-            "multiselect": true
+            "variable_name": "global:intake_craving1"
         }
     ]
 }

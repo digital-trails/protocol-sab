@@ -4,17 +4,17 @@
         {
             "type": "alert",
             "title": "Recovery",
-            "message": "Learning how we can help.",
+            "message": "Learning how we can help."
         },
         {
-            "type": "button",
+            "type": "survey",
             "action": {
-                "text": "Show Surveys",
-                "action": "navmodal://Survey"
+                "text": "Surveys"
             }
         },
         {
             "type": "tiles",
+            "title": "More resources",
             "actions": [
                 {
                     "text": "What is this study?",
@@ -25,7 +25,7 @@
                     "text": "What can I expect?",
                     "action": "flow://flows/instructions.json",
                     "backgroundcolor": "#1A00E05A"
-                },
+                }
             ]
         }
     ]

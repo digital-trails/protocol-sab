@@ -1,0 +1,16 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "What is your current craving for ${global:intake_craving3}?\n\n0 = No craving\n\n10 = Max craving"
+        },
+        {
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false
+        }
+    ]
+}

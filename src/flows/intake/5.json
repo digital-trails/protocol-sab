@@ -1,0 +1,20 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Do you use nicotine/tobacco?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Yes",
+                "1::No"
+            ],
+            "selectable": true,
+            "multiselect": true,
+            "variable_name":"use_nicotine_intake"
+        }
+    ]
+}

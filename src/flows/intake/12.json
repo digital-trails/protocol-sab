@@ -1,0 +1,31 @@
+{
+    "header_text": "Intake!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Why did you use ${global:intake_past_week_used}?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Craving",
+                "1::Stress",
+                "2::Anxiety",
+                "3::Depression",
+                "4::Availability",
+                "5::Boredom",
+                "6::Avoid withdrawal",
+                "7::“Others were using",
+                "8::To treat pain"
+            ],
+            "selectable": true,
+            "multiselect": true
+        }
+    ],
+     "condition": [
+        "intake_past_week_used",
+        "!=",
+        "9"
+    ]
+}
