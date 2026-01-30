@@ -4,6 +4,7 @@
     "elements": [
         {
             "type": "Text",
+            "has_variable": true,
             "text": "What is your current craving for ${global:intake_craving3}?\n\n0 = No craving\n\n10 = Max craving"
         },
         {

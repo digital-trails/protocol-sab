@@ -21,7 +21,8 @@
                 "9::None"
             ],
             "selectable": true,
-            "variable_name": "global:intake_past_week_used"
+            "variable_name": "global:intake_past_week_used",
+            "column_count": 2
         }
     ]
 }

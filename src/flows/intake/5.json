@@ -13,7 +13,6 @@
                 "1::No"
             ],
             "selectable": true,
-            "multiselect": true,
             "variable_name":"use_nicotine_intake"
         }
     ]

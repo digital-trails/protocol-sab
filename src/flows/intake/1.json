@@ -21,7 +21,8 @@
                 "!9::Other"
             ],
             "selectable": true,
-            "multiselect": true
+            "multiselect": true,
+            "column_count": 2
         }
     ]
 }

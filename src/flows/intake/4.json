@@ -21,7 +21,8 @@
                 "!9::Other"
             ],
             "selectable": true,
-            "variable_name": "global:intake_craving3"
+            "variable_name": "global:intake_craving3",
+            "column_count": 2
         }
     ]
 }

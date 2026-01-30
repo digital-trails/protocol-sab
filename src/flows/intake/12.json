@@ -4,6 +4,7 @@
     "elements": [
         {
             "type": "Text",
+            "has_variable": true,
             "text": "Why did you use ${global:intake_past_week_used}?"
         },
         {
