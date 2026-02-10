@@ -7,10 +7,9 @@
             "message": "Learning how we can help."
         },
         {
-            "type": "button",
+            "type": "survey",
             "action": {
-                "text": "Surveys",
-                "action": "navmodal://Survey"
+                "text": "Surveys"
             }
         },
         {
