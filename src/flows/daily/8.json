@@ -27,6 +27,6 @@
      "condition": [
         "global:daily_past_week_used",
         "=",
-        "None"
+        ["None"]
     ]
 }
