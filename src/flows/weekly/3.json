@@ -20,6 +20,6 @@
     "condition": [
         "historical:daily_past_week_used|7",
         "none",
-        "None"
+        ["None"]
     ]
 }
