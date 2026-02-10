@@ -4,8 +4,14 @@
     "elements": [
         {
             "type": "Text",
-            "has_variable": true,
-            "text": "Over the past week, you reported using ${historical:daily_past_week_used|7}"
+            "text": "Over the past week, you reported using:"
+        },
+        {
+            "type": "HistoricText",
+            "variable_name": "daily_past_week_used|7",
+            "exclude_values": [
+                "None"
+            ]
         },
         {
             "type": "Text",
@@ -20,6 +26,8 @@
     "condition": [
         "historical:daily_past_week_used|7",
         "none",
-        ["None"]
+        [
+            "None"
+        ]
     ]
 }

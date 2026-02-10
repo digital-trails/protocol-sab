@@ -19,7 +19,7 @@
                 "Alcohol",
                 "“Gas-station” drugs",
                 "!Other",
-                "None"
+                "^None"
             ],
             "selectable": true,
             "variable_name": "global:intake_past_week_used",
