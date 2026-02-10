@@ -19,6 +19,7 @@
         },
         {
             "type": "Scheduler",
+            "count": 7,
             "schedule_flow": false,
             "has_time": false
         }
