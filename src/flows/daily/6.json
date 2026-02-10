@@ -19,7 +19,7 @@
                 "Alcohol",
                 "“Gas-station” drugs",
                 "!Other",
-                "None"
+                "^None"
             ],
             "selectable": true,
             "multiselect": true,
