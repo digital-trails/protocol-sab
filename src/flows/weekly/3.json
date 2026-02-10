@@ -26,7 +26,7 @@
     ],
     "condition": [
         "historical:daily_past_week_used|7",
-        "none",
+        "notNone",
         [
             "None"
         ]
