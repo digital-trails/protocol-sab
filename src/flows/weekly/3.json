@@ -10,7 +10,7 @@
             "type": "HistoricText",
             "variable_name": "daily_past_week_used|7",
             "exclude_values": [
-                ["None"]
+                "None"
             ]
         },
         {
