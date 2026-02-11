@@ -13,7 +13,7 @@
                 "No"
             ],
             "selectable": true,
-            "variable_name": "global:no_use_drugs_weekly"
+            "variable_name": "no_use_drugs_weekly"
         }
     ],
     "condition": [
