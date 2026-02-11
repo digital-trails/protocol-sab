@@ -8,7 +8,7 @@
         }
     ],
     "condition": [
-        "global:no_use_drugs_weekly",
+        "no_use_drugs_weekly",
         "=",
         "Yes"
     ]
