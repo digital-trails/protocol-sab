@@ -8,6 +8,7 @@
   },
    "typ": {
     "type": "frequency",
+    "skip": 1,
     "time": "20:00",
     "frequency": "7",
     "expiry": "5",
