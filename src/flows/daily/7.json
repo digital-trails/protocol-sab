@@ -4,29 +4,27 @@
     "elements": [
         {
             "type": "Text",
-            "has_variable": true,
-            "text": "Why did you use ${historical:daily_past_week_used}?"
+            "text": "Which of the following have you used since last completing this survey? Select \"None\" if you have not used any."
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Craving",
-                "Stress",
-                "Anxiety",
-                "Depression",
-                "Availability",
-                "Boredom",
-                "Avoid withdrawal",
-                "Others were using",
-                "To treat pain"
+                "Prescription Opioids",
+                "Heroin",
+                "Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other",
+                "^None"
             ],
             "selectable": true,
-            "multiselect": true
+            "multiselect": true,
+            "variable_name": "historical:daily_past_week_used",
+            "column_count": 2
         }
-    ],
-     "condition": [
-        "global:daily_past_week_used",
-        "!=",
-        ["None"]
     ]
 }

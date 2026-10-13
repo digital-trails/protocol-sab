@@ -9,17 +9,17 @@
         {
             "type": "Picker",
             "items": [
-				"1 times",
+                "1 time",
                 "2 times",
                 "3 times",
                 "4 times",
                 "5 times",
                 "6 times",
                 "7 or more times"
-			]
+            ]
         }
     ],
-     "condition": [
+    "condition": [
         "global:weekly_coach",
         "=",
         "Yes"

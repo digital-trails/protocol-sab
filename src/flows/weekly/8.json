@@ -4,22 +4,22 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How many times did you attended any peer recovery meetings (AA, NA)?"
+            "text": "How many times did you attend peer recovery meetings (AA, NA)?"
         },
         {
             "type": "Picker",
             "items": [
-				"1 times",
+                "1 time",
                 "2 times",
                 "3 times",
                 "4 times",
                 "5 times",
                 "6 times",
                 "7 or more times"
-			]
+            ]
         }
     ],
-     "condition": [
+    "condition": [
         "global:weekly_meeting",
         "=",
         "Yes"

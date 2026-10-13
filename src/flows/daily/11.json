@@ -1,0 +1,24 @@
+{
+    "header_text": "Daily Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Was there an issue with the device or a negative side effect that made you stop early?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "selectable": true,
+            "variable_name": "device_stopped_early"
+        }
+    ],
+    "condition": [
+        "device_minutes",
+        "<",
+        40
+    ]
+}

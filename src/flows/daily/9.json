@@ -1,0 +1,31 @@
+{
+    "header_text": "Daily Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Why did you not use?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Reduced craving",
+                "Reduced stress",
+                "Reduced anxiety",
+                "Reduced depression",
+                "No access to drugs",
+                "No money",
+                "Less motivated to use",
+                "Drug testing",
+                "No pain"
+            ],
+            "selectable": true,
+            "multiselect": true
+        }
+    ],
+    "condition": [
+        "daily_used_any",
+        "=",
+        "No"
+    ]
+}
