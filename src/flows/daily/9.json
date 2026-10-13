@@ -4,28 +4,14 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Why did you not use?"
+            "text": "Approximately how many minutes did you use the device yesterday?"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "Reduced craving",
-                "Reduced stress",
-                "Reduced anxiety",
-                "Reduced depression",
-                "No access to drugs",
-                "No money",
-                "Less motivated to use",
-                "Drug testing",
-                "No pain"
-            ],
-            "selectable": true,
-            "multiselect": true
+            "type": "Slider",
+            "min": "0",
+            "max": "60",
+            "display_slider_value": true,
+            "variable_name": "device_minutes"
         }
-    ],
-    "condition": [
-        "daily_used_any",
-        "=",
-        "No"
     ]
 }

@@ -4,28 +4,28 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Why did you use?"
+            "text": "Why did you not use?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Craving",
-                "Stress",
-                "Anxiety",
-                "Depression",
-                "Availability",
-                "Boredom",
-                "Avoid withdrawal",
-                "Others were using",
-                "To treat pain"
+                "Reduced craving",
+                "Reduced stress",
+                "Reduced anxiety",
+                "Reduced depression",
+                "No access to drugs",
+                "No money",
+                "Less motivated to use",
+                "Drug testing",
+                "No pain"
             ],
             "selectable": true,
             "multiselect": true
         }
     ],
     "condition": [
-        "daily_used_any",
+        "historical:daily_past_week_used",
         "=",
-        "Yes"
+        ["None"]
     ]
 }

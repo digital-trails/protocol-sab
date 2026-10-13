@@ -4,21 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Was there an issue with the device or a negative side effect that made you stop early?"
-        },
-        {
-            "type": "Buttons",
-            "buttons": [
-                "Yes",
-                "No"
-            ],
-            "selectable": true,
-            "variable_name": "device_stopped_early"
+            "text": "Thank you. A member of the study team will contact you to discuss the issue.\n\nIf you are experiencing a medical emergency, call 911 or seek immediate medical attention. Do not wait for the study staff to contact you."
         }
     ],
     "condition": [
-        "device_minutes",
-        "<",
-        40
+        "device_stopped_early",
+        "=",
+        "Yes"
     ]
 }

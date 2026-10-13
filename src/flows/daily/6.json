@@ -4,16 +4,27 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Since last completing this survey, have you used any substances (not including prescribed buprenorphine)?"
+            "text": "Since last completing this survey, have you used any of the following substances (not including prescribed buprenorphine)? Select \"None\" if you have not used any."
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Yes",
-                "No"
+                "Prescription Opioids",
+                "Heroin",
+                "Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other",
+                "^None"
             ],
             "selectable": true,
-            "variable_name": "daily_used_any"
+            "multiselect": true,
+            "variable_name": "historical:daily_past_week_used",
+            "column_count": 2
         }
     ]
 }

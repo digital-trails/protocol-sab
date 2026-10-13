@@ -18,7 +18,8 @@
                 "Marijuana",
                 "Alcohol",
                 "“Gas-station” drugs",
-                "!Other"
+                "!Other",
+                "^None"
             ],
             "selectable": true,
             "multiselect": true,

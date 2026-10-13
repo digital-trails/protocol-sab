@@ -4,27 +4,28 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Which of the following have you used since last completing this survey? Select \"None\" if you have not used any."
+            "text": "Why did you use?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Prescription Opioids",
-                "Heroin",
-                "Fentanyl",
-                "Methamphetamine",
-                "Cocaine",
-                "Benzodiazepines",
-                "Marijuana",
-                "Alcohol",
-                "“Gas-station” drugs",
-                "!Other",
-                "^None"
+                "Craving",
+                "Stress",
+                "Anxiety",
+                "Depression",
+                "Availability",
+                "Boredom",
+                "Avoid withdrawal",
+                "Others were using",
+                "To treat pain"
             ],
             "selectable": true,
-            "multiselect": true,
-            "variable_name": "historical:daily_past_week_used",
-            "column_count": 2
+            "multiselect": true
         }
+    ],
+    "condition": [
+        "historical:daily_past_week_used",
+        "!=",
+        ["None"]
     ]
 }

@@ -4,14 +4,21 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Approximately how many minutes did you use the device yesterday?"
+            "text": "Was there an issue with the device or a negative side effect that made you stop early?"
         },
         {
-            "type": "Slider",
-            "min": "0",
-            "max": "60",
-            "display_slider_value": true,
-            "variable_name": "device_minutes"
+            "type": "Buttons",
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "selectable": true,
+            "variable_name": "device_stopped_early"
         }
+    ],
+    "condition": [
+        "device_minutes",
+        "<",
+        40
     ]
 }

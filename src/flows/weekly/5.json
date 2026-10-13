@@ -18,14 +18,15 @@
                 "Marijuana",
                 "Alcohol",
                 "“Gas-station” drugs",
-                "!Other"
+                "!Other",
+                "^None"
             ],
             "selectable": true,
             "multiselect": true,
             "column_count": 2
         }
     ],
-     "condition": [
+    "condition": [
         "no_use_drugs_weekly",
         "=",
         "No"
