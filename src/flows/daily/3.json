@@ -13,5 +13,10 @@
             "max": "10",
             "display_slider_value": false
         }
+    ],
+    "condition": [
+        "global:intake_craving2",
+        "!=",
+        "None"
     ]
 }

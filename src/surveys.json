@@ -1,7 +1,7 @@
 {
   "daily": {
     "type": "frequency",
-    "time": "20:00",
+    "time": "${global:daily_survey_time,20:00}",
     "frequency": "1",
     "expiry": "04:00",
     "path": "flow://flows/daily"

@@ -18,7 +18,8 @@
                 "Marijuana",
                 "Alcohol",
                 "“Gas-station” drugs",
-                "!Other"
+                "!Other",
+                "None::I don't crave another drug"
             ],
             "selectable": true,
             "variable_name": "global:intake_craving2",
