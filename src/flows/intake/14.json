@@ -20,10 +20,11 @@
                 "No pain"
             ],
             "selectable": true,
-            "multiselect": true
+            "multiselect": true,
+            "variable_name": "intake_why_not_used"
         }
     ],
-     "condition": [
+    "condition": [
         "global:intake_past_week_used",
         "=",
         "None"

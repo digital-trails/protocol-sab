@@ -1,0 +1,34 @@
+{
+    "header_text": "Intake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You chose the same drug as your most craved drug. Please choose a different drug for your second most craved, or select \"I don't crave another drug\"."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Prescription Opioids",
+                "Heroin",
+                "Fentanyl",
+                "Methamphetamine",
+                "Cocaine",
+                "Benzodiazepines",
+                "Marijuana",
+                "Alcohol",
+                "“Gas-station” drugs",
+                "!Other",
+                "None::I don't crave another drug"
+            ],
+            "selectable": true,
+            "variable_name": "global:intake_craving2",
+            "column_count": 2
+        }
+    ],
+    "condition": [
+        "global:intake_craving2",
+        "=",
+        "global:intake_craving1"
+    ]
+}

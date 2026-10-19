@@ -10,7 +10,8 @@
             "type": "Slider",
             "min": "0",
             "max": "10",
-            "display_slider_value": false
+            "display_slider_value": false,
+            "variable_name": "intake_stress"
         }
     ]
 }

@@ -11,7 +11,13 @@
             "type": "Slider",
             "min": "0",
             "max": "10",
-            "display_slider_value": false
+            "display_slider_value": false,
+            "variable_name": "intake_craving1_rating"
         }
+    ],
+    "condition": [
+        "global:intake_craving1",
+        "!=",
+        "None"
     ]
 }

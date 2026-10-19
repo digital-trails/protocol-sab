@@ -22,7 +22,8 @@
             ],
             "selectable": true,
             "multiselect": true,
-            "column_count": 2
+            "column_count": 2,
+            "variable_name": "intake_used_12mo"
         }
     ]
 }

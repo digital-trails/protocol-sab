@@ -15,7 +15,8 @@
                 "Vape"
             ],
             "selectable": true,
-            "multiselect": true
+            "multiselect": true,
+            "variable_name": "intake_nicotine_kind"
         }
     ],
     "condition": [
