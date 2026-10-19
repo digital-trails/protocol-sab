@@ -27,8 +27,12 @@
         }
     ],
     "condition": [
-        "historical:daily_past_week_used|7",
-        "all",
-        null
+        "no_use_drugs_weekly",
+        "in",
+        ["no_use_drugs_weekly"],
+        "&&",
+        "weekly_used_days",
+        "in",
+        ["weekly_used_days"]
     ]
 }
