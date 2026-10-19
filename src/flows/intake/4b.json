@@ -4,26 +4,13 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You already chose that drug. Please choose a different drug for your third most craved, or select \"I don't crave another drug\"."
-        },
+            "has_variable": true,
+            "text": "You already selected ${global:intake_craving3} as one of the drugs you crave.\n\nPlease tap the back arrow and choose a different drug for your third most craved, or select \"I don't crave another drug\"."
+        }
+    ],
+    "navigators": [
         {
-            "type": "Buttons",
-            "buttons": [
-                "Prescription Opioids",
-                "Heroin",
-                "Fentanyl",
-                "Methamphetamine",
-                "Cocaine",
-                "Benzodiazepines",
-                "Marijuana",
-                "Alcohol",
-                "“Gas-station” drugs",
-                "!Other",
-                "None::I don't crave another drug"
-            ],
-            "selectable": true,
-            "variable_name": "global:intake_craving3",
-            "column_count": 2
+            "wait_for_time": 2147483647
         }
     ],
     "condition": [
