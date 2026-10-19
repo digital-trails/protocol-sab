@@ -9,6 +9,7 @@
         {
             "type": "Picker",
             "items": [
+                "0 times",
                 "1 time",
                 "2 times",
                 "3 times",

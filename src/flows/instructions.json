@@ -1,6 +1,9 @@
 {
-    "header_text": "What Do I do?",
+    "header_text": "What can I expect?",
     "elements": [
-		{ "type": "Text", "text": "Here you can remind participants about what they need to do." },
-	]
+        {
+            "type": "Text",
+            "text": "Each day you will receive a short survey at the time you chose. It asks about craving, mood, substance use, and how many minutes you used the device.\n\nOnce a week you will also receive a brief weekly survey that reviews the past week and asks about recovery meetings and support.\n\nEach survey only takes a minute or two. If you miss one, just continue with the next one — and if you have an issue with the device, the study team will follow up with you."
+        }
+    ]
 }

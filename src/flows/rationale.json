@@ -1,6 +1,9 @@
 {
-    "header_text": "What can I expect?",
+    "header_text": "What is this study?",
     "elements": [
-        { "type": "Text", "text": "Here you can tell participants what they can expect and why." },
+        {
+            "type": "Text",
+            "text": "This study looks at how recovery from substance use changes from day to day, and how use of the study device relates to craving, mood, and substance use.\n\nBy answering short daily and weekly surveys, you help the study team understand what helps people in recovery and how well the device is working for you."
+        }
     ]
 }

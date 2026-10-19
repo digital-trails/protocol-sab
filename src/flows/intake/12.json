@@ -22,6 +22,7 @@
                 "^None"
             ],
             "selectable": true,
+            "multiselect": true,
             "variable_name": "global:intake_past_week_used",
             "column_count": 2
         }

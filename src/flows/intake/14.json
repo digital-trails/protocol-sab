@@ -4,7 +4,6 @@
     "elements": [
         {
             "type": "Text",
-            "has_variable": true,
             "text": "Why did you not use?"
         },
         {
