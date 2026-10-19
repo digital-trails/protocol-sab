@@ -24,5 +24,8 @@
             "variable_name": "global:intake_craving1",
             "column_count": 2
         }
+    ],
+    "navigators": [
+        "wait_for_complete"
     ]
 }

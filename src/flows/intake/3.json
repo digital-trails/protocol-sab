@@ -28,5 +28,13 @@
                 "global:intake_craving1"
             ]
         }
+    ],
+    "navigators": [
+        "wait_for_complete"
+    ],
+    "condition": [
+        "intake_used_12mo",
+        "count>=",
+        2
     ]
 }

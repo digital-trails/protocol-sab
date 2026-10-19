@@ -25,5 +25,8 @@
             "column_count": 2,
             "variable_name": "intake_used_12mo"
         }
+    ],
+    "navigators": [
+        "wait_for_complete"
     ]
 }
