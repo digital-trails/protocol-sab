@@ -1,0 +1,29 @@
+{
+    "header_text": "Intake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "has_variable": true,
+            "text": "You already selected ${global:intake_craving3} as one of the drugs you crave.\n\nPlease tap the back arrow and choose a different drug for your third most craved, or select \"I don't crave another drug\"."
+        }
+    ],
+    "navigators": [
+        {
+            "wait_for_time": 2147483647
+        }
+    ],
+    "condition": [
+        "global:intake_craving3",
+        "=",
+        "global:intake_craving1",
+        "||",
+        "global:intake_craving3",
+        "=",
+        "global:intake_craving2",
+        "&&",
+        "global:intake_craving2",
+        "!=",
+        "None"
+    ]
+}

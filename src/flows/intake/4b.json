@@ -5,7 +5,7 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "You already selected ${global:intake_craving3} as one of the drugs you crave.\n\nPlease tap the back arrow and choose a different drug for your third most craved, or select \"I don't crave another drug\"."
+            "text": "You already selected ${global:intake_craving1} as the drug you crave most.\n\nPlease tap the back arrow and choose a different drug for your second most craved, or select \"I don't crave another drug\"."
         }
     ],
     "navigators": [
@@ -14,16 +14,8 @@
         }
     ],
     "condition": [
-        "global:intake_craving3",
-        "=",
-        "global:intake_craving1",
-        "||",
-        "global:intake_craving3",
-        "=",
         "global:intake_craving2",
-        "&&",
-        "global:intake_craving2",
-        "!=",
-        "None"
+        "=",
+        "global:intake_craving1"
     ]
 }

@@ -1,32 +1,14 @@
 {
-    "header_text": "Intake",
-    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Which of these drugs have you used in the past 12 months?"
+            "text": "Please enter your participant ID below. (The researcher will tell you this number.)"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "Prescription Opioids",
-                "Heroin",
-                "Fentanyl",
-                "Methamphetamine",
-                "Cocaine",
-                "Benzodiazepines",
-                "Marijuana",
-                "Alcohol",
-                "“Gas-station” drugs",
-                "!Other"
-            ],
-            "selectable": true,
-            "multiselect": true,
-            "column_count": 2,
-            "variable_name": "intake_used_12mo"
+            "type": "Entry",
+            "bordered": false,
+            "name": "participantid",
+            "variable_name": "linking:code"
         }
-    ],
-    "navigators": [
-        "wait_for_complete"
     ]
 }

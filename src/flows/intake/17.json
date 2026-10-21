@@ -4,14 +4,14 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How would you rate your current stress?\n\n0 = No stress\n\n10 = Max stress"
+            "text": "How would you rate your current depression?\n\n0 = No depression\n\n10 = Max depression"
         },
         {
             "type": "Slider",
             "min": "0",
             "max": "10",
             "display_slider_value": false,
-            "variable_name": "intake_stress"
+            "variable_name": "intake_depression"
         }
     ]
 }

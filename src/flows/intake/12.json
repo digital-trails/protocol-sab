@@ -4,27 +4,19 @@
     "elements": [
         {
             "type": "Text",
-            "text": "In the past week, have you used any of the following drugs (not including prescribed buprenorphine)?"
+            "text": "What is your current craving for nicotine/tobacco?\n\n0 = No craving\n\n10 = Max craving"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "Prescription Opioids",
-                "Heroin",
-                "Fentanyl",
-                "Methamphetamine",
-                "Cocaine",
-                "Benzodiazepines",
-                "Marijuana",
-                "Alcohol",
-                "“Gas-station” drugs",
-                "!Other",
-                "^None"
-            ],
-            "selectable": true,
-            "multiselect": true,
-            "variable_name": "global:intake_past_week_used",
-            "column_count": 2
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false,
+            "variable_name": "intake_nicotine_rating"
         }
+    ],
+    "condition": [
+        "global:use_nicotine_intake",
+        "=",
+        "Yes"
     ]
 }

@@ -4,14 +4,29 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How would you rate your current anxiety?\n\n0 = No anxiety\n\n10 = Max anxiety"
+            "text": "Why did you not use?"
         },
         {
-            "type": "Slider",
-            "min": "0",
-            "max": "10",
-            "display_slider_value": false,
-            "variable_name": "intake_anxiety"
+            "type": "Buttons",
+            "buttons": [
+                "Reduced craving",
+                "Reduced stress",
+                "Reduced anxiety",
+                "Reduced depression",
+                "No access to drugs",
+                "No money",
+                "Less motivated to use",
+                "Drug testing",
+                "No pain"
+            ],
+            "selectable": true,
+            "multiselect": true,
+            "variable_name": "intake_why_not_used"
         }
+    ],
+    "condition": [
+        "global:intake_past_week_used",
+        "=",
+        "None"
     ]
 }

@@ -4,24 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What kind of nicotine/tobacco do you use?"
+            "text": "Do you use nicotine/tobacco?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "Smoke cigarettes",
-                "Smoke cigars",
-                "Use smokeless tobacco",
-                "Vape"
+                "Yes",
+                "No"
             ],
             "selectable": true,
-            "multiselect": true,
-            "variable_name": "intake_nicotine_kind"
+            "variable_name":"global:use_nicotine_intake"
         }
-    ],
-    "condition": [
-        "global:use_nicotine_intake",
-        "=",
-        "Yes"
     ]
 }

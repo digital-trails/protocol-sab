@@ -5,22 +5,18 @@
         {
             "type": "Text",
             "has_variable": true,
-            "text": "What is your current craving for ${global:intake_craving3}?\n\n0 = No craving\n\n10 = Max craving"
+            "text": "What is your current craving for ${global:intake_craving2}?\n\n0 = No craving\n\n10 = Max craving"
         },
         {
             "type": "Slider",
             "min": "0",
             "max": "10",
             "display_slider_value": false,
-            "variable_name": "intake_craving3_rating"
+            "variable_name": "intake_craving2_rating"
         }
     ],
     "condition": [
         "global:intake_craving2",
-        "!=",
-        "None",
-        "&&",
-        "global:intake_craving3",
         "!=",
         "None"
     ]

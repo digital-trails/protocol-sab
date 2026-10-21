@@ -1,0 +1,17 @@
+{
+    "header_text": "Intake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you rate your current pain?\n\n0 = No pain\n\n10 = Max pain"
+        },
+        {
+            "type": "Slider",
+            "min": "0",
+            "max": "10",
+            "display_slider_value": false,
+            "variable_name": "intake_pain"
+        }
+    ]
+}
