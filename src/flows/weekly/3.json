@@ -20,6 +20,7 @@
         {
             "type": "Scheduler",
             "count": 7,
+            "days_behind": 7,
             "schedule_flow": false,
             "has_time": false,
             "variable_name": "weekly_used_days"
